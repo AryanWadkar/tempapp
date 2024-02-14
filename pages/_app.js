@@ -35,7 +35,7 @@ export default function App() {
         </>
       ) : (
         <div style={{ position: 'relative', width: '500px', height: '500px' }}>
-          <Image src='/../public/rose.png' alt='Rose' layout='fill' objectFit='contain' className={styles.rocking}/>
+          <Image src='/rose.png' alt='Rose' layout='fill' objectFit='contain' className={styles.rocking}/>
           <p className={styles.footer}>Yay! Here's a rose for cutie</p>
         </div>
       )}
